@@ -29,4 +29,4 @@ function sumV1(n, sum) {
   return n + sum;
 }
 
-console.log(reduceV1([1, 2], sum));
+console.log(reduceV1([1, 2], sumV1));
