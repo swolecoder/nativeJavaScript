@@ -1,0 +1,23 @@
+{
+  "name": "native",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reduce.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swolecoder/nativeJavaScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swolecoder/nativeJavaScript/issues"
+  },
+  "homepage": "https://github.com/swolecoder/nativeJavaScript#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
