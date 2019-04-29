@@ -1,5 +1,5 @@
 ## UnderStanding Javascript Closure:
- -A closure is a inner function which has access to outer function.
+A closure is a inner function which has access to outer function.
 Cosure has three concepts: It has access to its own ScopedCredential, it has access to outer function variables and it has access to global variables.The inner function not only have access to the outer function variables, but alos to the outer functions parameters
 
 ```javascript
@@ -28,7 +28,7 @@ fileObject.write("We are writing to the file.")
 //now we can continue doing the other, totally unrelated things our program does
 ```
 
-⋅⋅⋅ In the above example, we wait for the file to open, before we write to it.This blocks the flow of execution, and our program cannot do any of the other things it might need to do.This is where callbacks are useful:
+In the above example, we wait for the file to open, before we write to it.This blocks the flow of execution, and our program cannot do any of the other things it might need to do.This is where callbacks are useful:
 
 ```javascript
 //we pass writeToFile (a callback function) to the open function
