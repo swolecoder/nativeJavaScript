@@ -8,6 +8,8 @@ How do you protect against XSS? Start by using frameworks and services that have
 
 If you’ve ever wanted to share resources across subdomains, you’ve most likely had to deal with Cross-Origin resource sharing. When CORS is used irresponsibly, it can allow anyone to send a request to your server, potentially revealing sensitive information in the response. If you’ve ever set Access-Control-Allow-Origin to \*, its worth making sure that you haven’t compromised your site
 
+Links: https://www.we45.com/blog/3-ways-to-exploit-misconfigured-cross-origin-resource-sharing-cors
+
 ## Cookies
 
 Libraries like jQuery Cookie make it very easy to set cookies without having to rely on a server. When working with cookies, it is important to remember that they can be vulnerable to XSS and CORS exploits. Their also not encrypted by default, which means a password stored in a cookie over http will be stored in plain text.
